@@ -1,0 +1,30 @@
+﻿@page "/employeeoverview"
+@attribute [StreamRendering(true)]
+
+@rendermode InteractiveServer
+
+<PageTitle>@Title</PageTitle>
+
+<h1>Employee Overview</h1>
+
+@if (Employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <QuickViewPopup Employee="_selectedEmployee"></QuickViewPopup>
+    <div class="row">
+        @foreach (var employee in Employees)
+        {
+            <ErrorBoundary>
+                <ChildContent>
+                    <EmployeeCard Employee="employee" EmployeeQuickViewClicked="ShowQuickViewPopup"></EmployeeCard>
+                </ChildContent>
+                <ErrorContent>
+                    <p class="errorUI">Invalid employee!</p>
+                </ErrorContent>
+            </ErrorBoundary>
+        }
+    </div>
+}
