@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using BethanysPieShop.Client;
 using BethanysPieShopHRM.Contracts.Services;
 using BethanysPieShopHRM.Shared.Domain;
 using Microsoft.AspNetCore.Components;

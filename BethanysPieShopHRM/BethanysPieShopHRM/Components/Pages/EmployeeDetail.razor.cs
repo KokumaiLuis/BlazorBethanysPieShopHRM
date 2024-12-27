@@ -4,6 +4,7 @@ using BethanysPieShopHRM.Shared.Domain;
 using BethanysPieShopHRM.Contracts.Services;
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 using Microsoft.AspNetCore.Components.QuickGrid;
+using BethanysPieShop.Client;
 
 namespace BethanysPieShopHRM.Components.Pages
 {
