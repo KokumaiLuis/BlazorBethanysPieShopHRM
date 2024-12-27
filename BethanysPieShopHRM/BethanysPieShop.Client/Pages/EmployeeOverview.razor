@@ -1,9 +1,8 @@
 ﻿@page "/employeeoverview"
 @attribute [StreamRendering(true)]
 
-@*@rendermode InteractiveWebAssembly*@
-
-@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+@rendermode InteractiveAuto
+@*@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))*@
 
 <PageTitle>@Title</PageTitle>
 
