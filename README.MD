@@ -1,6 +1,24 @@
 # Blazor Study Project
 
-This repository contains a Blazor application built as part of my study journey through an course on Blazor development. This project is not a professional application but a learning exercise to understand Blazor concepts and features. 
+## Navigation
+- [Overview](#overview)
+- [Screenshots](#screenshots)
+- [Features](#features)
+  - [Blazor Hosting Models and Render Modes](#blazor-hosting-models-and-render-modes)
+  - [Blazor Components](#blazor-components)
+  - [Layouts and Navigation](#layouts-and-navigation)
+  - [Data Access with EF Core](#data-access-with-ef-core)
+  - [Form Creation and Validation](#form-creation-and-validation)
+  - [Client-Side Interactivity with Blazor WASM](#client-side-interactivity-with-blazor-wasm)
+  - [JavaScript Integration](#javascript-integration)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [License](#license)
+
+---
+
+This repository contains a Blazor application built as part of my study journey through an course on Blazor development. This project is not a professional application but a learning exercise to understand Blazor concepts and features.
 
 ## Overview
 
