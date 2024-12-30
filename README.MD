@@ -8,14 +8,26 @@ The application was developed using **.NET 8** and **Visual Studio 2022 Communit
 
 ## Screenshots
 
-![Employee Overview](screenshots/home_page.png)
+![Home Overview](screenshots/home_page.png)
 *Home Page*
 
-![Add Employee Form](screenshots/add-employee-form.png)
-*Add Employee Form*
+![Employees Page](screenshots/employees_page.png)
+*Employees Form*
 
-![Map Integration](screenshots/map-component.png)
-*Map Integration Component*
+![Employees Quick View](screenshots/quick_view_popup.png)
+*Quick View Popup*
+
+![Full Details 1](screenshots/employee_full_details_page_1.png)
+*Employee Full Detail 1*
+
+![Full Details 2](screenshots/employee_full_details_page_2.png)
+*Employee Full Detail 2*
+
+![Employee Edit](screenshots/employee_edit_page.png)
+*Employee Edit Page*
+
+![Employee Add](screenshots/employee_add_page.png)
+*Employee Add Page*
 
 ## Features
 
