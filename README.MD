@@ -8,8 +8,8 @@ The application was developed using **.NET 8** and **Visual Studio 2022 Communit
 
 ## Screenshots
 
-![Employee Overview](screenshots/employee-overview.png)
-*Employee Overview Page*
+![Employee Overview](screenshots/home_page.png)
+*Home Page*
 
 ![Add Employee Form](screenshots/add-employee-form.png)
 *Add Employee Form*
